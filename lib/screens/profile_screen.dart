@@ -105,8 +105,8 @@ class ProfileScreen extends StatelessWidget {
               print("Tapped");
             },
             child: Text("How to get more miles", style: TextStyle(
-              color: Color(0xFFF37B67),
-              fontSize: 22,
+              color: Color(0xFF687daf),
+              fontSize: 16,
               fontWeight: FontWeight.bold
             )),
           ),)
