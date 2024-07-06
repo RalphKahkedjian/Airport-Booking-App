@@ -17,7 +17,7 @@ class SearchScreen extends StatelessWidget {
        padding: const EdgeInsets.symmetric(horizontal: 35, vertical: 30),
         children: [
           Text("What Are \nYou Looking For ?", style: Styles.headLineStyle1.copyWith(color: Colors.grey[800], fontSize: 30),),
-          SizedBox(height: 15,),
+          SizedBox(height: 35,),
           const AppTicketsTab(firstTab: "Airline Tickets", secondTab: "Hotels",),
           SizedBox(height: 20,),
           const AppIconText(icon: Icons.flight_takeoff_rounded, text: "Departure", ),

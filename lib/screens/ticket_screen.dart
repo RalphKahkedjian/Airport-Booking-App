@@ -10,7 +10,9 @@ class TicketScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      body: Stack(
+      backgroundColor: Styles.bgColor,
+      body: 
+      Stack(
         children: [
           ListView(
             padding: EdgeInsets.symmetric(horizontal: 45, vertical: 30),

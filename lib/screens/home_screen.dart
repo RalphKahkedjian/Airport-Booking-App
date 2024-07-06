@@ -46,8 +46,8 @@ class HomeScreen extends StatelessWidget {
                     ),
                     child: ColorFiltered(
                       colorFilter: ColorFilter.mode(
-                        Color(0xFF687daf), // The desired color
-                        BlendMode.srcIn, // This blend mode will replace the image color
+                        Color(0xFF687daf), 
+                        BlendMode.srcIn, 
                       ),
                       child: Image.asset(
                         "assets/airplane-logo.png",
